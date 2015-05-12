@@ -1,0 +1,122 @@
+body{
+  height: 100%;
+  max-height: 100%;
+  overflow: hidden;
+  background-color: black;
+  padding-top: 50px;
+  color: white;
+}
+.songProgress{
+  height: 50px;
+  background-color: #dd3204;
+  border-radius: 0px;
+}
+#progressBar{
+  background-color: #c52b02;
+}
+#commentsBoxContainer{
+    position: absolute;
+  bottom: 50px;
+  left: 26%;
+  width: 100%;
+  height: 200px;
+  overflow-y: hidden;
+  font-size: 18px;
+  background-color: black;
+  opacity: 0.7;
+}
+#searchInput{
+    display: inline;
+  float: right;
+  position: absolute;
+  height: 100%;
+  font-size: 20px;
+  border-radius: 0px;
+  color: #333;
+}
+.container{
+  width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.streamHeaderBtnGroup{
+
+}
+#playingImage{
+  width: 100%;
+/*  height: 100%;*/
+}
+.streamHeaderBtnGroup .btn{
+
+}
+.top-bar{
+  height: 70px;
+  padding-left: 0px;
+}
+.headerButtons .item{
+  /*position: relative;*/
+  background-color: #dd3204;
+  color: white;
+  border-radius: 0px;
+  border: none;
+  height: 50px;
+}
+.headerButtons .item:hover{
+  background-color: #c52b02;
+}
+.headerButtons .item:focus{
+  outline: none;}
+.headerButtons .item.selected{
+  background-color: #c52b02;
+}
+.headerButtons .item:nth-child(2) {
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    margin-right: 1px;
+}
+.headerButtonsContainer{
+  padding-left: 0px !important;
+}
+
+.headerButtons .item:hover:after {
+    position: relative;
+    width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+
+  border-top: 20px solid #dd3204;
+}
+
+.container{
+  max-width: none;
+  padding-left: 0px;
+}
+.songRow{
+  margin-bottom: 10px;
+  padding: 5px;
+}
+.songRow:hover{
+  background-color: #586073;
+}
+.songListContainer{
+  padding-top: 10px;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  border-right: 1px solid #dd3204;
+}
+.center{
+  text-align: center;
+}
+.playerBar{
+  position: absolute;
+  bottom: 0%;
+
+  background-color: #dd3204;
+  width: 110%;
+  height: 50px;
+}
+.playerBar .block{
+
+}
